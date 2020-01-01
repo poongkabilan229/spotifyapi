@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="spot.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="spot.js"></script>
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Music Files API</h1>
+    </div>
+    <div class="field">
+        <input class="input" id="input" type="text" placeholder="Search for Songs,Artists,Movies...">
+        <br>
+        <button onclick="search()" id="submit">submit</button>
+    </div>
+    <div class="output" id="output">
+        <!-- <div class="disp">
+            <div class="img">
+                <img src="https://i.scdn.co/image/ab67616d000048516af52444427b6ca493dbe468">
+            </div>
+            <div class="info">
+                <label>Justin Bieber</label>
+                <label>Artist</label>
+                <label>20 Tracks</label>
+            </div>
+        </div> -->
+    </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCUHu_l7l-8xB1oO6zYf3OAREcf9z5NFKw",
+    authDomain: "testing-165da.firebaseapp.com",
+    databaseURL: "https://testing-165da.firebaseio.com",
+    projectId: "testing-165da",
+    storageBucket: "testing-165da.appspot.com",
+    messagingSenderId: "302644249027",
+    appId: "1:302644249027:web:8e25df5000d4957231fd76",
+    measurementId: "G-4P2JBET838"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+//   firebase.database().ref("key").set({
+//       name:"kabilan",
+//       age:"21"
+//   })
+</script>
+</body>
+
+</html>
