@@ -15,9 +15,18 @@
         <h1>Music Files API</h1>
     </div>
     <div class="field">
+        <button onclick="upload()" id="upload">upload</button>
         <input class="input" id="input" type="text" placeholder="Search for Songs,Artists,Movies...">
         <br>
         <button onclick="search()" id="submit">submit</button>
+       
+    </div>
+    <div class="upvideo" id="upvideo">
+        <input class="up" type="text" id="uimg" placeholder="Enter url">
+        <input class="up" type="text" id="uname" placeholder="Enter name">
+        <input class="up" type="text" id="utype" placeholder="Enter type">
+        <input class="up" type="text" id="utracks" placeholder="Enter tracks">
+        <button onclick="upsubmit()" id="upsubmit">Submit</button>
     </div>
     <div class="output" id="output">
         <!-- <div class="disp">
@@ -31,33 +40,33 @@
             </div>
         </div> -->
     </div>
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCUHu_l7l-8xB1oO6zYf3OAREcf9z5NFKw",
-    authDomain: "testing-165da.firebaseapp.com",
-    databaseURL: "https://testing-165da.firebaseio.com",
-    projectId: "testing-165da",
-    storageBucket: "testing-165da.appspot.com",
-    messagingSenderId: "302644249027",
-    appId: "1:302644249027:web:8e25df5000d4957231fd76",
-    measurementId: "G-4P2JBET838"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-//   firebase.database().ref("key").set({
-//       name:"kabilan",
-//       age:"21"
-//   })
-</script>
+    <script>
+
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBbEdW3QDhhqM4b6PfcjJJ0X04GMQ55Dqo",
+            authDomain: "fir-6809c.firebaseapp.com",
+            databaseURL: "https://fir-6809c.firebaseio.com",
+            projectId: "fir-6809c",
+            storageBucket: "fir-6809c.appspot.com",
+            messagingSenderId: "358356078896",
+            appId: "1:358356078896:web:2bb7a378c85f7e8464b8f5",
+            measurementId: "G-R13LYZXYXM"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();       
+    </script>
+
+   
 </body>
 
 </html>

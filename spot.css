@@ -27,16 +27,37 @@ body {
     background-color: black;
     color: white;
     border-right: none;
+    margin-left: 242px;
+    box-shadow: -2px 0px 30px -2px #60d861;
     /* border-radius: 10%; */
 }
-#submit {
+#submit  {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: black;
     color: white;
     border: 2px solid #60d861;
+    box-shadow: 2px 0px 30px -2px #60d861
 }
-
+#upload  {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid #60d861;
+    /* margin-right: 158px; */
+    margin-left: -200px;
+    box-shadow: 2px 0px 30px -2px #60d861
+}
+#upsubmit{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid #60d861;
+    margin-left: 70px;
+    margin-top: 14px
+}
 .output {
     width: 100%;
     height: auto;
@@ -57,7 +78,7 @@ body {
     padding: 20px 20px 16px;
     border-radius: 8px;
     background: #282828;
-    box-shadow: 0px 0px 50px 1px #60d861;
+    box-shadow: 0px 0px 51px 1px #60d861;
 }
 .img {
     width: 165.33px;
@@ -85,10 +106,26 @@ body {
     text-transform: none;
     font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
 }
-
-
-
-
-
-
+.upvideo {
+    /* border: 1px solid green; */
+    width: 201px;
+    height: auto;
+    margin-top: 8px;
+    display: none;
+    background-color: #121212;
+    margin-left: 62px;
+}
+.up {
+    padding-left: 20px;
+    border-color: white;
+    border: 2px solid #60d861;
+    border-radius: 5px;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    background-color: black;
+    color: white;
+    margin-top: 7px;
+    /* border-right: none;
+    margin-left: 242px; */
+    /* box-shadow: -2px 0px 30px -2px #60d861; */
 }
